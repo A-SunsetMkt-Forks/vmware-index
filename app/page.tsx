@@ -154,6 +154,11 @@ export default function Home() {
 
   return (
     <div className="container mx-auto p-4 sm:p-8 min-h-screen font-sans">
+      <div className="max-w-3xl mx-auto bg-red-100 border-l-4 border-red-500 text-red-700 p-4 rounded-md shadow-lg mb-8" role="alert">
+        <p className="font-bold">Service Disruption Notice</p>
+        <p>The DNS record for <code>softwareupdate-prod.broadcom.com</code> has been removed, making the upstream data source for this project unavailable. As a result, all product information and download link generation features are <strong>temporarily out of service</strong>. The timeline for restoration is unknown.</p>
+      </div>
+
       <header className="mb-10">
         <h1 className="text-2xl sm:text-3xl font-bold text-center text-gray-800 dark:text-gray-200">VMware Product Download Link Generator</h1>
         <p className="text-center text-gray-600 dark:text-gray-400 mt-2">Select a product and version to get the official download link.</p>

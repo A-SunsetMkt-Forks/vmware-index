@@ -1,5 +1,13 @@
 # Vmware Index
 
+> [!IMPORTANT]
+> **Service Disruption Notice**
+>
+> The DNS record for `softwareupdate-prod.broadcom.com` has been removed, making the upstream data source for this project unavailable.
+> As a result, all product information and download link generation features are **temporarily out of service**.
+>
+> The timeline for restoration is currently unknown. We apologize for any inconvenience.
+
 This project indexes VMware (now Broadcom) product download information. It fetches and parses XML metadata files to provide direct download URLs.
 
 ## Base URL
